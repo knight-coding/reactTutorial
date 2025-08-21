@@ -18,27 +18,22 @@ function Header() {
       name: "Login",
       slug: "/login",
       active: !authStatus,
-  },
-  {
-      name: "Signup",
-      slug: "/signup",
-      active: !authStatus,
-  },
-  {
-      name: "All Posts",
-      slug: "/all-posts",
-      active: authStatus,
-  },
-  {
-      name: "Account",
-      slug: "/Account",
-      active: authStatus,
-  },
-  {
-      name: "Add Post",
-      slug: "/add-post",
-      active: authStatus,
-  },
+    },
+    {
+        name: "Signup",
+        slug: "/signup",
+        active: !authStatus,
+    },
+    {
+        name: "All Posts",
+        slug: "/all-posts",
+        active: authStatus,
+    },
+    {
+        name: "Add Post",
+        slug: "/add-post",
+        active: authStatus,
+    },
   ]
 
 
@@ -69,7 +64,7 @@ function Header() {
                     <Link to='./Account' aria-label="Go to Account" title="Account">
                       <img
                         className='w-10 hover:cursor-pointer'
-                        src="https://icon-library.com/images/my-account-icon-png/my-account-icon-png-3.jpg"
+                        src="https://static.vecteezy.com/system/resources/previews/021/079/672/original/user-account-icon-for-your-design-only-free-png.png"
                         alt="Account"
                       />
                     </Link>

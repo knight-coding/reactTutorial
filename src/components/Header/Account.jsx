@@ -28,7 +28,7 @@ function Account() {
         <div className="flex flex-col items-center">
           <img
             className="w-24 h-24 rounded-full mb-4"
-            src="https://icon-library.com/images/my-account-icon-png/my-account-icon-png-3.jpg"
+            src="https://static.vecteezy.com/system/resources/previews/021/079/672/original/user-account-icon-for-your-design-only-free-png.png"
             alt="Account Icon"
           />
           <h2 className="text-xl font-semibold mb-1">{name}</h2>
